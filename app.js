@@ -10,8 +10,11 @@ async function main(){
 
     var usuarios = new Table(dadosProcessados)
 
-    console.log(usuarios.rows)
+    //Adiciona nova linha
+    //usuarios.rows.push([""])
 
+    console.log(usuarios.RowCount)
+    console.log(usuarios.ColumnCount)
 }
 
 main()
